@@ -21,6 +21,13 @@
 		FE264B6519581B7A003B174C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE264B4719581B7A003B174C /* UIKit.framework */; };
 		FE264B6D19581B7A003B174C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE264B6B19581B7A003B174C /* InfoPlist.strings */; };
 		FE264B6F19581B7A003B174C /* Ejercicio1Dia1Semana4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264B6E19581B7A003B174C /* Ejercicio1Dia1Semana4Tests.m */; };
+		FE264B7A19581BBA003B174C /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264B7919581BBA003B174C /* TableViewController.m */; };
+		FE264B7D19581C05003B174C /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264B7C19581C05003B174C /* TableViewCell.m */; };
+		FE264B8019581CCF003B174C /* gThrones.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE264B7E19581CCF003B174C /* gThrones.jpg */; };
+		FE264B8119581CCF003B174C /* madmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE264B7F19581CCF003B174C /* madmen.jpg */; };
+		FE264B8319581CDB003B174C /* IronHackGuys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE264B8219581CDB003B174C /* IronHackGuys.jpg */; };
+		FE264B8619581EE5003B174C /* TVShows.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264B8519581EE5003B174C /* TVShows.m */; };
+		FE264B8B19582828003B174C /* duquesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE264B8A19582828003B174C /* duquesa.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,16 @@
 		FE264B6A19581B7A003B174C /* Ejercicio1Dia1Semana4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ejercicio1Dia1Semana4Tests-Info.plist"; sourceTree = "<group>"; };
 		FE264B6C19581B7A003B174C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FE264B6E19581B7A003B174C /* Ejercicio1Dia1Semana4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ejercicio1Dia1Semana4Tests.m; sourceTree = "<group>"; };
+		FE264B7819581BBA003B174C /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		FE264B7919581BBA003B174C /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		FE264B7B19581C05003B174C /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		FE264B7C19581C05003B174C /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		FE264B7E19581CCF003B174C /* gThrones.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gThrones.jpg; sourceTree = "<group>"; };
+		FE264B7F19581CCF003B174C /* madmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = madmen.jpg; sourceTree = "<group>"; };
+		FE264B8219581CDB003B174C /* IronHackGuys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IronHackGuys.jpg; sourceTree = "<group>"; };
+		FE264B8419581EE5003B174C /* TVShows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVShows.h; sourceTree = "<group>"; };
+		FE264B8519581EE5003B174C /* TVShows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVShows.m; sourceTree = "<group>"; };
+		FE264B8A19582828003B174C /* duquesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duquesa.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +129,8 @@
 		FE264B4919581B7A003B174C /* Ejercicio1Dia1Semana4 */ = {
 			isa = PBXGroup;
 			children = (
+				FE264B8D195879D5003B174C /* model */,
+				FE264B8C195879C5003B174C /* artwork */,
 				FE264B5219581B7A003B174C /* AppDelegate.h */,
 				FE264B5319581B7A003B174C /* AppDelegate.m */,
 				FE264B5519581B7A003B174C /* Main.storyboard */,
@@ -119,6 +138,10 @@
 				FE264B5919581B7A003B174C /* ViewController.m */,
 				FE264B5B19581B7A003B174C /* Images.xcassets */,
 				FE264B4A19581B7A003B174C /* Supporting Files */,
+				FE264B7819581BBA003B174C /* TableViewController.h */,
+				FE264B7919581BBA003B174C /* TableViewController.m */,
+				FE264B7B19581C05003B174C /* TableViewCell.h */,
+				FE264B7C19581C05003B174C /* TableViewCell.m */,
 			);
 			path = Ejercicio1Dia1Semana4;
 			sourceTree = "<group>";
@@ -150,6 +173,26 @@
 				FE264B6B19581B7A003B174C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE264B8C195879C5003B174C /* artwork */ = {
+			isa = PBXGroup;
+			children = (
+				FE264B8A19582828003B174C /* duquesa.jpg */,
+				FE264B8219581CDB003B174C /* IronHackGuys.jpg */,
+				FE264B7E19581CCF003B174C /* gThrones.jpg */,
+				FE264B7F19581CCF003B174C /* madmen.jpg */,
+			);
+			name = artwork;
+			sourceTree = "<group>";
+		};
+		FE264B8D195879D5003B174C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FE264B8419581EE5003B174C /* TVShows.h */,
+				FE264B8519581EE5003B174C /* TVShows.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE264B5C19581B7A003B174C /* Images.xcassets in Resources */,
+				FE264B8119581CCF003B174C /* madmen.jpg in Resources */,
+				FE264B8319581CDB003B174C /* IronHackGuys.jpg in Resources */,
+				FE264B8B19582828003B174C /* duquesa.jpg in Resources */,
+				FE264B8019581CCF003B174C /* gThrones.jpg in Resources */,
 				FE264B4E19581B7A003B174C /* InfoPlist.strings in Resources */,
 				FE264B5719581B7A003B174C /* Main.storyboard in Resources */,
 			);
@@ -252,6 +299,9 @@
 				FE264B5A19581B7A003B174C /* ViewController.m in Sources */,
 				FE264B5419581B7A003B174C /* AppDelegate.m in Sources */,
 				FE264B5019581B7A003B174C /* main.m in Sources */,
+				FE264B7D19581C05003B174C /* TableViewCell.m in Sources */,
+				FE264B8619581EE5003B174C /* TVShows.m in Sources */,
+				FE264B7A19581BBA003B174C /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +506,7 @@
 				FE264B7419581B7A003B174C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE264B7519581B7A003B174C /* Build configuration list for PBXNativeTarget "Ejercicio1Dia1Semana4Tests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +515,7 @@
 				FE264B7719581B7A003B174C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
